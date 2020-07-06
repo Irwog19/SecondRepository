@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="14" total="21" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser opened.]]>
+    </line>
+    <line>
+      <![CDATA[Mercury site opened and validation-done:'SUPPORT'.]]>
+    </line>
+    <line>
+      <![CDATA[Logged in succdesfully.]]>
+    </line>
+    <line>
+      <![CDATA[Sign-in screenshot taken/saved.]]>
+    </line>
+    <line>
+      <![CDATA[Flight details selected.]]>
+    </line>
+    <line>
+      <![CDATA[Flight screenshot taken/saved.]]>
+    </line>
+    <line>
+      <![CDATA[Continued to Reserve flights.]]>
+    </line>
+    <line>
+      <![CDATA[Passengers (2) details furnished.]]>
+    </line>
+    <line>
+      <![CDATA[credit card details furnished.]]>
+    </line>
+    <line>
+      <![CDATA[Billing address provided and 'ticket less travel' clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Billing address provided and 'same as billing address' clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Book a flight screenshot taken/saved.]]>
+    </line>
+    <line>
+      <![CDATA[Purchased tickets and returned to Home screen.]]>
+    </line>
+    <line>
+      <![CDATA['Home' screenshot taken/saved.]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61034" started-at="2020-06-24T17:03:30Z" finished-at="2020-06-24T17:04:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="61034" started-at="2020-06-24T17:03:30Z" finished-at="2020-06-24T17:04:31Z">
+      <class name="com.mercury.testcases.TC1">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.mercury.testcases.TC1@27c86f2d]" name="testLogin" duration-ms="4882" started-at="2020-06-24T18:03:43Z" finished-at="2020-06-24T18:03:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in succdesfully.]]>
+            </line>
+            <line>
+              <![CDATA[Sign-in screenshot taken/saved.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- com.mercury.testcases.TC1 -->
+      <class name="com.mercury.testcases.TC3">
+        <test-method status="PASS" signature="testcontinuetoreserve()[pri:0, instance:com.mercury.testcases.TC3@402e37bc]" name="testcontinuetoreserve" duration-ms="5814" started-at="2020-06-24T18:04:03Z" finished-at="2020-06-24T18:04:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Continued to Reserve flights.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcontinuetoreserve -->
+      </class> <!-- com.mercury.testcases.TC3 -->
+      <class name="com.mercury.testcases.TC2">
+        <test-method status="PASS" signature="testflight()[pri:0, instance:com.mercury.testcases.TC2@197d671]" name="testflight" duration-ms="15393" started-at="2020-06-24T18:03:48Z" finished-at="2020-06-24T18:04:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Flight details selected.]]>
+            </line>
+            <line>
+              <![CDATA[Flight screenshot taken/saved.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testflight -->
+      </class> <!-- com.mercury.testcases.TC2 -->
+      <class name="com.mercury.testcases.TC5">
+        <test-method status="PASS" signature="testcreditcard()[pri:0, instance:com.mercury.testcases.TC5@1df82230]" name="testcreditcard" duration-ms="2974" started-at="2020-06-24T18:04:11Z" finished-at="2020-06-24T18:04:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[credit card details furnished.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcreditcard -->
+      </class> <!-- com.mercury.testcases.TC5 -->
+      <class name="com.mercury.testcases.TC4">
+        <test-method status="PASS" signature="testpassengerinfo()[pri:0, instance:com.mercury.testcases.TC4@79ad8b2f]" name="testpassengerinfo" duration-ms="1814" started-at="2020-06-24T18:04:09Z" finished-at="2020-06-24T18:04:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Passengers (2) details furnished.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testpassengerinfo -->
+      </class> <!-- com.mercury.testcases.TC4 -->
+      <class name="com.mercury.testcases.TC7">
+        <test-method status="PASS" signature="purchaseandbackhome()[pri:0, instance:com.mercury.testcases.TC7@13c10b87]" name="purchaseandbackhome" duration-ms="4964" started-at="2020-06-24T18:04:21Z" finished-at="2020-06-24T18:04:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Purchased tickets and returned to Home screen.]]>
+            </line>
+            <line>
+              <![CDATA['Home' screenshot taken/saved.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- purchaseandbackhome -->
+      </class> <!-- com.mercury.testcases.TC7 -->
+      <class name="com.mercury.basedriver.Basedriver">
+        <test-method status="PASS" signature="launchbrowserandurl()[pri:0, instance:com.mercury.basedriver.Basedriver@6b4a4e18]" name="launchbrowserandurl" is-config="true" duration-ms="13628" started-at="2020-06-24T18:03:30Z" finished-at="2020-06-24T18:03:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser opened.]]>
+            </line>
+            <line>
+              <![CDATA[Mercury site opened and validation-done:'SUPPORT'.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchbrowserandurl -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.mercury.basedriver.Basedriver@6b4a4e18]" name="closebrowser" is-config="true" duration-ms="4700" started-at="2020-06-24T18:04:26Z" finished-at="2020-06-24T18:04:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.mercury.basedriver.Basedriver -->
+      <class name="com.mercury.testcases.TC6">
+        <test-method status="PASS" signature="testaddress()[pri:0, instance:com.mercury.testcases.TC6@22635ba0]" name="testaddress" duration-ms="6815" started-at="2020-06-24T18:04:14Z" finished-at="2020-06-24T18:04:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Billing address provided and 'ticket less travel' clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Billing address provided and 'same as billing address' clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Book a flight screenshot taken/saved.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testaddress -->
+      </class> <!-- com.mercury.testcases.TC6 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
